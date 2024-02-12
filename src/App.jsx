@@ -34,6 +34,6 @@ export default function App() {
           &copy;2020 Acme Corp. All rights reserved.
         </p>
       </BrowserRouter>
-    </NoteState >
+      </NoteState>
   )
 }
