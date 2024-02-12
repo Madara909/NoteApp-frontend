@@ -8,7 +8,7 @@ export default function Signup(props) {
     const handleSubmit = async (e) => {
         e.preventDefault();
         const { name, email, password } = credentials;
-        const response = await fetch("http://localhost:5555/api/auth/createuser", {
+        const response = await fetch("https://notes-app-backend-sigma.vercel.app/api/auth/createuser", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
